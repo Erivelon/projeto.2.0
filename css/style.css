@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+.navbar-principal{
+   
+    box-shadow: -10px 10px 10px black;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    
+}
+
+body{
+    display: flex;
+    
+    justify-content: center;
+   background-image: linear-gradient(45deg, #16074f, black, #16074f, black);
+    
+   
+}
+
+
+
+
+.logo{
+    margin-right: 40px;
+    
+}
+
+.navbar{
+       object-fit: cover;
+       width: 100%;
+       background-image: url('https://images5.alphacoders.com/112/1123508.jpg');
+       
+ 
+}
+
+
+.nav-link{
+    color: rgb(255, 255, 255);
+    width: 100px;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    animation-name: profile-nav;
+    animation-duration: 2s;
+    
+
+}
+.nav-link:hover{
+
+    width: 100px;
+    text-decoration: underline;
+    color: #ffc107;
+    
+   
+    
+    
+}
+.nav-item{
+   
+    align-items: center;
+    width: 100%;
+
+}
+
+.dropdown-item{
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.navbar{
+    color: red;
+}
+
+
+
+/* ----------------------- */
+
+
+.carrossel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    object-fit: cover;
+
+}
+
+.d-block{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.text-bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    color: white;
+    margin-left: 60%;
+    margin-top: 40px;
+    display: flex;
+    position: absolute;
+    z-index: 20;
+    font-family: 'Oswald', sans-serif;
+
+    animation-name: profile-capa;
+    animation-duration: 7s;
+    
+
+}
+.icon-bg{
+    z-index: 30;
+    margin-top: -5px;
+    
+    /* display: block;
+   
+    
+    border-radius: 50%;
+    border-radius: 50%;
+   
+    animation: animar 3.5s linear infinite; */
+    
+   
+
+}
+
+
+
+@keyframes profile-capa{
+    0%{ transform: translate(0px, -20px);  opacity: 0;}
+    100%{ transform: translate(0px,y); opacity: 1;}
+}
+
+@keyframes profile-nav{
+    0%{   opacity: 0;}
+    100%{  opacity: 1;}
+}
+
+
+/* @keyframes animar {
+    0%{
+        transform: scale(0.5);
+    }
+    50%{
+
+    }
+    100%
+    
+} */
+/* ------------------------------------- */
+/* .cards{
+    
+    
+    margin: 1rem;
+    display: flex;
+    overflow: auto;
+    display: flex;
+    justify-content: space-evenly;
+   
+    animation-name: profile-nav;
+    animation-duration: 7s;
+    
+    
+    gap: 1rem;
+    object-fit: cover;
+}
+.card:hover{
+    box-shadow: 2px 2px 2rem rgb(212, 59, 243);
+}
+.card:hover img{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    border-radius: 10%;
+}
+
+
+
+
+.card-text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} */
+
+
+
+
+
+/* ------------------ */
+
+
+.nav-cs-go{
+   
+    
+    
+    color: white;
+     
+     display: flex;
+
+    object-fit: cover;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    
+    justify-content: center;
+
+}
+
+
+.nav-cs-go ul {
+    margin-top: 10px;
+     list-style: none;
+     
+     width: 100%;
+     justify-content: center;
+     gap: 30px;
+     
+     font-size: 30px;
+     
+     display: flex;
+    
+
+}
+.nav-cs-go a{
+    
+    display: flex;
+    color: white;
+    background: none;
+    
+    text-decoration: none;
+   align-items: center;
+   font-family: 'Oswald', sans-serif;
+   border-bottom: 1px solid rgb(0, 140, 255);
+  
+   animation-name: profile-capa;
+   animation-duration: 7s;
+}
+
+.nav-cs-go a:hover{
+    color: #07cdff;
+    border-bottom: 1px solid rgb(255, 255, 255);
+   
+}
+.logo-cs-go {
+    
+         margin-left: 10px;
+         z-index: 7;
+        
+
+
+        animation: pulse 1.9s infinite;
+        animation-direction: alternate;
+        -webkit-animation-name: pulse;
+        animation-name: pulse;
+      
+
+}
+
+
+.card-body{
+    height: 50px;
+}
+
+
+.nav-2{
+    
+    width: 100%;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    color: white;
+    margin-top: 7px;
+    font-family: 'Oswald', sans-serif;
+    
+    
+    
+}
+
+.nav-2 ul{
+    list-style: none;
+    display: flex;
+   border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+.nav-2 a{
+    color: white;
+    display: flex;
+    text-decoration: none;
+    height: 50px;
+    align-items: center;
+    
+    
+}
+
+.nav-2 a:hover{
+    
+    border-radius: 10px ;
+    color: #ffc107;
+}
+
+
+
+
+
+.video-1{
+    
+    margin-top: -90px;
+    margin-bottom:40px;
+   
+}
+
+
+.video-2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+@-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+      -webkit-filter: brightness(100%);
+    }
+    100% {
+      -webkit-transform: scale(1.1);
+      -webkit-filter: brightness(200%);
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      filter: brightness(100%);
+    }
+    100% {
+      transform: scale(1.1);
+      filter: brightness(200%);
+    }
+  }
+
+
+
+
+
+
+.body-equipe-csgo{
+    
+  background: #16074f;
+  display: flex;
+  justify-content: center;
+  
+  
+
+}
+.main-equipe-csgo{
+    margin-top: 180px;
+    
+    width: 100%;
+    justify-content: center;
+   
+
+    display: flex;
+
+    
+    
+    
+}
+
+.cards-csgo{
+    
+    display: flex;
+    gap: 1rem;
+    height: 300px;
+    animation-name: profile-capa;
+   animation-duration: 7s;
+   
+}
+
+.card:hover{
+    box-shadow: 10px 10px 20px black;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.3);
+}
+
+
+.cards-csgo img{
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------- */
+
+.body-equipe-codm{
+    background: #16074f;
+    display: flex;
+    justify-content: center;
+    
+}
+.main-equipe-codm{
+    margin-top: 180px;
+    
+    width: 100%;
+    justify-content: center;
+   
+
+    display: flex;
+
+
+}
+
+.cards-codm{
+    
+    display: flex;
+    gap: 1rem;
+    height: 300px;
+    animation-name: profile-capa;
+   animation-duration: 7s;
+   
+}
+
+.cards-codm img{
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
